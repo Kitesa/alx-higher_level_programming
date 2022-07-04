@@ -1,4 +1,4 @@
-#include <python.h>
+#include <Python.h>
 #include <listobject.h>
 #include <object.h>
 
@@ -9,7 +9,8 @@
 void print_python_list_info(PyObject *p)
 {
 	Py_ssize_t index, length;
-	PyListObject *item;
+	PyListObject *l;
+	PyObject *item;
 	PyVarObject *o;
 	l = (PyListObject *)p;
 	o = (PyVarObject *)p;
