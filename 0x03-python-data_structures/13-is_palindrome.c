@@ -13,9 +13,12 @@ int is_palindrome(listint_t **head)
 {
 	listint_t *start = NULL, *end = NULL;
 	unsigned int i = 0, len = 0, len_cyc = 0, len_list = 0;
-
+	
 	if (head == NULL)
 		return (0);
+	
+	if (*head == NULL)
+		return (1);
 
 	start = *head;
 	len = listint_len(start);
@@ -55,6 +58,7 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 				return (current);
 
 			current = current->next;
+			++iter_times;
 		}
 	}
 
