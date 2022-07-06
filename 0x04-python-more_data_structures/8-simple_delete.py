@@ -5,5 +5,5 @@ def simple_delete(a_dictionary, key=""):
         if i == key:
             a_dictionary.remove(a_dictionary[i])
     if key not in a_dictionary.keys():
-        pass
+        return a_dictionary
     return a_dictionary
