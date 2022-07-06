@@ -3,4 +3,4 @@
 def print_sorted_dictionary(a_dictionary):
     sorted_dic = sorted(a_dictionary)
     for i in sorted_dic:
-        print("{key}: {value}".format(key=i,value=car[i]))
+        print("{key}: {value}".format(key=i,value=sorted_dic[i]))
