@@ -25,7 +25,7 @@ void print_python_bytes(PyObject *p)
 			calc_bytes = 10;
 
 		printf(" size: %d\n", clone_size);
-		printf(" trying string: %s\n", clone-ob_val);
+		printf(" trying string: %s\n", clone->ob_val);
 		printf(" first %d bytes: ", calc_bytes);
 		print_hexn(clone->ob_sval, calc_bytes);
 		printf("\n");
