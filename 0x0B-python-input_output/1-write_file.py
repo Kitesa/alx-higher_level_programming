@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """
-function to write string to a text file (UTF8) and returns the 
-number of characters written
+function to write string to a text file(UTF8) and return number of char written
 """
 
 
