@@ -124,3 +124,28 @@ You can use only one SELECT statement
 The database name will be passed as an argument of the mysql command
 
 _____________________________________________________
+ 
+ is a script that lists all shows without the genre Comedy in the database hbtn_0d_tvshows.                                                                    
+                                                                                                                                                              
+The tv_genres table contains only one record where name = Comedy (but the id can be different)                                                                
+Each record should display: tv_shows.title                                                                                                                    
+Results must be sorted in ascending order by the show title                                                                                                   
+You can use a maximum of two SELECT statement                                                                                                                 
+The database name will be passed as an argument of the mysql command                                                                                          
+__________________________________________________________________                                                                                            
+102-rating_shows.sql                                                                                                                                          
+is  a script that lists all shows from hbtn_0d_tvshows_rate by their rating.                                                                                  
+                                                                                                                                                              
+Each record should display: tv_shows.title - rating sum                                                                                                       
+Results must be sorted in descending order by the rating                                                                                                      
+You can use only one SELECT statement                                                                                                                         
+The database name will be passed as an argument of the mysql command                                                                                          
+__________________________________________________________________                                                                                            
+103-rating_genres.sql                                                                                                                                         
+is a script that lists all genres in the database hbtn_0d_tvshows_rate by their rating.                                                                       
+                                                                                                                                                              
+Each record should display: tv_genres.name - rating sum                                                                                                       
+Results must be sorted in descending order by their rating                                                                                                    
+You can use only one SELECT statement                                                                                                                         
+The database name will be passed as an argument of the mysql command                                                                                          
+__________________________________________________________________ 
