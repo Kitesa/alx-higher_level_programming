@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
-Module that takes in the name of a state as an
-argument and lists all cities of that state from
+Module that takes in the name of a state as an argument 
+and lists all cities of that state from
 the database hbtn_0e_0_usa
 """
 import sys
