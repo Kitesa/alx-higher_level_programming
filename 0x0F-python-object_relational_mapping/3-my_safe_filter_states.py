@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module that retrieves states searched by the user
+A python Module that retrieves states searched by the user
 """
 import sys
 import MySQLdb
