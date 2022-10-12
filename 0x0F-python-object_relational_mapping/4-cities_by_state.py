@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module that lists all cities and their state from
+A Module that lists all cities and their state from
 the database hbtn_0e_0_usa
 """
 import sys
