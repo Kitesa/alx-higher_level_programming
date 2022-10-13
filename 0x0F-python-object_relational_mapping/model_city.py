@@ -11,8 +11,8 @@ Base = declarataive_base()
 
 class City(Base):
     '''
-City class inherits from base
-'''
+    City class inherits from base
+    '''
     __tablename__ = 'cities'
 
     id = Column(Integer,. primary_key=True, nullable=False)
